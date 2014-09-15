@@ -1,6 +1,6 @@
 <table align="center">
 	<tr>
-		<td style="font-size:15px">{{resBundle.careBundleName}}</td>
+		<td style="font-size:15px">Care Bundle: {{resBundle.careBundleName}}</td>
 		<td>&nbsp;</td>
 		<td style="font-size:15px">Geo Avg Cost $ {{resBundle.geoAvgCost}}</td>
 		<td>&nbsp;</td>
@@ -16,7 +16,6 @@
 		<td>Step  {{$index + 1}}</td>
 		<td>&nbsp;&nbsp;   {{step.stepName}}</td>
 		<td>&nbsp;&nbsp;   $ {{step.geoAvgCost}}</td>
-		<td>&nbsp;&nbsp;   {{step.stepCode}}</td>
 		<td>&nbsp;&nbsp;   <a href="{{step.stepDetailURI}}" target="_blank">Detail</a></td>
 	</tr>
 </table>
