@@ -83,22 +83,6 @@ hcciApp.controller('careBundleCostCtrl',['$scope', '$http','$rootScope',
 	    
 	    $scope.pdfCtrl = function() {
 	    	var doc = new jsPDF('p', 'pt', 'letter');
-	    	
-	    	var source = $scope.costResponse;
-			var specialElementHandlers = {
-				'#editor' : function(element, renderer) {
-					return true;
-				}
-			};
-			
-			 margins = {
-			  top: 30,
-			  bottom: 30,
-			  left: 30,
-			  width: "100%"
-			  
-			};
-
 			doc.addHTML(document.getElementById('content1'), function() {
 						doc.save('Test.pdf');
 					});
