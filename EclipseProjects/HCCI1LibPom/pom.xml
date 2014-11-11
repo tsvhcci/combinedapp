@@ -28,7 +28,7 @@
 		<ehcache.version>2.5.1</ehcache.version>
 		<jackson.version>1.9.13</jackson.version>
 
-		<!-- cloud properties -->
+		<!-- cloud properties 2323-->
 		<optumx.sdk.version>3.2.0</optumx.sdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<ifms.project.code.version>0.0.1-SNAPSHOT</ifms.project.code.version>
@@ -78,7 +78,7 @@
 		</dependency>
 
 
-		<!-- Spring JDBC -->
+		<!-- Spring JDBC 3434-->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
@@ -129,7 +129,7 @@
 		<!-- </dependency> -->
 
 
-		<!-- Log4j lib Testing -->
+		<!-- Log4j lib Testing 4567 -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
