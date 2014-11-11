@@ -129,7 +129,7 @@
 		<!-- </dependency> -->
 
 
-		<!-- Log4j lib -->
+		<!-- Log4j lib Testing -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
